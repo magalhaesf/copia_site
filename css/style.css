@@ -71,7 +71,7 @@ nav {
 
  .nav-container li a {
  	text-decoration: none;
- 	color: #666;
+ 	color: #FFF;
  	transition: .5s;
  }
 
@@ -83,11 +83,12 @@ nav {
 /* banner  */
  #main-banner {
  	background-color: red;
- 	background: url('../img/banner6.jpg') no-repeat;
+ 	background: url('../img/banner6.png') no-repeat;
  	background-size: cover;
- 	background-position: 0 55%;
+ 	background-position: 0 50%;
  	position: relative;
  	margin-top: 100px;
+	height: 750px;
  }
 
  #search-form {
@@ -99,6 +100,7 @@ nav {
  	padding-bottom: 15em;
  	text-align: center;
  }
+
 
  #search-form h1 {
  	font-size: 40px;
@@ -114,11 +116,13 @@ nav {
 /* Formulario */
  #search-form input, #search-form select {
  	background-color: #FFF;
+	border: thin;
  	border-radius: 5px;
- 	border-color: transparent;
+ 	border-color: black;
  	padding: 10px 20px;
- 	font-size: 18px;
+ 	font-size: 25px;
  	margin: 0 10px;
+	height: 70px;
  }
 
 #search-form input[type=submit] {
@@ -127,10 +131,23 @@ nav {
  	color: #FFF;
  	cursor: pointer;
  	transition: 0.5s;
+
+	
  }
 
  #search-form input[type=submit]:hover {
- 	background-color: #007bff;;
- 	/*background-color: #191970;*/
+ 	background-color: #234364;
  }
- 
+
+ footer {
+    padding: 25px 0;
+    text-align: center;
+}
+
+footer span.copyright {
+    font-size: 90%;
+    line-height: 40px;
+    text-transform: none;
+    font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
